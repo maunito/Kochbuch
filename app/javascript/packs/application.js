@@ -17,6 +17,7 @@ require("channels")
 // const imagePath = (name) => images(name, true)
 
 import "bootstrap";
+import "../components/landingpage"
 
 // import {slideIndex, showDivs, plusDivs} from '../components/landingpage';
 var slideIndex = 1;
