@@ -16,19 +16,27 @@ require("channels")
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 
-
-// ----------------------------------------------------
-// Note(lewagon): ABOVE IS RAILS DEFAULT CONFIGURATION
-// WRITE YOUR OWN JS STARTING FROM HERE 👇
-// ----------------------------------------------------
-
-// External imports
 import "bootstrap";
 
-// Internal imports, e.g:
-// import { initSelect2 } from '../components/init_select2';
+// import {slideIndex, showDivs, plusDivs} from '../components/landingpage';
+var slideIndex = 1;
+showDivs(slideIndex);
 
-document.addEventListener('turbolinks:load', () => {
-  // Call your functions here, e.g:
-  // initSelect2();
-});
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+
+

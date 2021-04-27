@@ -1,2 +1,130 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+    <div class="d-flex home-container">
+    
+      <div class="highlights">
+        <h2>Weekly Highlights</h2>
+      </div>
+      
+      <div class="CSSgal">
+      
+        <!-- Don't wrap targets in parent -->
+        <s id="s1"></s> 
+        <s id="s2"></s>
+        <s id="s3"></s>
+        <s id="s4"></s>
+      
+        <div class="slider">
+          <div class="image-slides" id="image1">
+            <h2>Gerichtname</h2>
+            <p>Gerichtbeschreibung</p>
+          </div>
+          <div class="image-slides" id="image2">
+            <h2>Gerichtname</h2>
+            <p>Gerichtbeschreibung</p>
+          </div>
+          <div class="image-slides" id="image3">
+            <h2>Gerichtname</h2>
+            <p>Gerichtbeschreibung</p>
+          </div>
+          <div class="image-slides" id="image4">
+            <h2>Gerichtname</h2>
+            <p>Gerichtbeschreibung</p>
+          </div>
+        </div>
+        
+        <div class="prevNext">
+          <div><a href="#s4"></a><a href="#s2"></a></div>
+          <div><a href="#s1"></a><a href="#s3"></a></div>
+          <div><a href="#s2"></a><a href="#s4"></a></div>
+          <div><a href="#s3"></a><a href="#s1"></a></div>
+        </div>
+      
+        <div class="bullets">
+          <a href="#s1">1</a>
+          <a href="#s2">2</a>
+          <a href="#s3">3</a>
+          <a href="#s4">4</a>
+        </div>
+      
+      </div>
+      
+      <div class="klassiker">
+        <h2>Unsere Klassiker</h2>
+      </div>
+
+      <div class="container-fluid cards">
+        <div class="row">
+          <div class="col-sm">
+            <a href="../recipes/show.html.erb">
+              <div class="card">
+                <img class="card-img-top" src="https://www.cooknsoul.de/wp-content/uploads/2017/11/Rindergulasch_Tomatensauce.jpg" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Gulasch</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm">
+            <div class="card">
+              <img class="card-img-top" src="https://previews.123rf.com/images/katyjay/katyjay1510/katyjay151000011/47339369-ente-mit-kn%C3%B6del.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Ente</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card">
+              <img class="card-img-top" src="https://www.br.de/radio/bayern1/schweinebraten-114~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=8de68" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Schweinebraten</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card">
+              <img class="card-img-top" src="https://bilder.t-online.de/b/id_75624670/tid_da/index.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Schinkennudeln</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm">
+            <div class="card" id="dark-grey-shadow">
+              <img class="card-img-top" src="https://i3-img.sat1.de/pis/ezone/e74eqgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXauk1M9wuU4rv5_rLEYRvbq7E9XZDDfMHZWh6xm0ZycUvSmJIa8pMomMw2PbHvnnQF82mVXhA70QNyxPJXJGIFW_TdTWqIRuDoGHN45WLi_ZGIwdhW0HJyDWk6nGOF70vKVmjeIdBu3UfytyGq2mBfMlHieNUIQDVm1d7zB2wmI-x42Csm_WUZoYaWTI40EPtnuM3ZHrWw28lAxC8Q/profile:mag-996x562" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Schnitzel</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card">
+              <img class="card-img-top" src="https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/5f19c9385a819b7ce07e1dbe-ee3b2545.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Fleischpflanzerl</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card">
+              <img class="card-img-top" src="https://previews.123rf.com/images/katyjay/katyjay1510/katyjay151000011/47339369-ente-mit-kn%C3%B6del.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-title" id="border-radius">Gerichtname</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card">
+              <img class="card-img-top" src="https://i3-img.sat1.de/pis/ezone/e74eqgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXauk1M9wuU4rv5_rLEYRvbq7E9XZDDfMHZWh6xm0ZycUvSmJIa8pMomMw2PbHvnnQF82mVXhA70QNyxPJXJGIFW_TdTWqIRuDoGHN45WLi_ZGIwdhW0HJyDWk6nGOF70vKVmjeIdBu3UfytyGq2mBfMlHieNUIQDVm1d7zB2wmI-x42Csm_WUZoYaWTI40EPtnuM3ZHrWw28lAxC8Q/profile:mag-996x562" alt="">
+              <div class="card-body">
+                <h5 class="card-title" id="border-radius">Gerichtname</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="../../javascript/components/landingpage.js" async defer></script>
