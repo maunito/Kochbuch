@@ -24,6 +24,10 @@
   padding-top: 10px;
 }
 
+.removeTextDecoration:hover {
+  text-decoration: none !important;;
+}
+
 .logo {
   height: 60px;
   width: 75px;
@@ -42,3 +46,5 @@
   right: 50px;
   color: white;
 }
+
+
