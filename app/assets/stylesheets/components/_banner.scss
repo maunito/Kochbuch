@@ -35,6 +35,15 @@
   left: 25px;
 }
 
+@media screen and (max-width: 400px) {
+  .logo {
+  height: 60px;
+  width: 75px;
+  position: absolute;
+  left: 5px;
+  }
+}
+
 .facebook {
   position: absolute;
   right: 25px;
