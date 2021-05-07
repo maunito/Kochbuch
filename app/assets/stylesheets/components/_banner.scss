@@ -22,7 +22,16 @@
   text-shadow: 1.2px 1.2px black;
   text-align: center;
   padding-top: 10px;
+  transition: 0.15s;
 }
+
+.banner h1:hover {
+  text-shadow: 2px 2px #FB9C0F;
+  color: black;
+  letter-spacing: 3px;
+}
+
+
 
 .removeTextDecoration:hover {
   text-decoration: none !important;;
@@ -53,7 +62,8 @@
 .instagram {
   position: absolute;
   right: 50px;
-  color: white;
+  color: black;
+  text-shadow: 1px 1px #FB9C0F
 }
 
 

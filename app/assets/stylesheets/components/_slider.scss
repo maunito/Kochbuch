@@ -62,10 +62,12 @@ http://stackoverflow.com/a/34696029/383904
 	-webkit-transform: translateY(-50%);
 					transform: translateY(-50%);
 	left: 0;
+  border: 5px solid #FB9C0F;
 }
 .CSSgal .prevNext a:hover {
 	opacity: 1;
   background: rgba(251, 156, 15, 0.7) !important;
+  border: 1px solid black;
 }
 .CSSgal .prevNext a+a {
 	left: auto;
@@ -89,26 +91,28 @@ http://stackoverflow.com/a/34696029/383904
 	line-height: 30px;
 	text-decoration: none;
 	text-align: center;
-	background: rgba(255, 255, 255, 1);
+	background: rgba(251, 156, 15, 1);
 	-webkit-transition: 0.3s;
 					transition: 0.3s;
 }
 .CSSgal .bullets > a+a {
-	background: rgba(255, 255, 255, 0.5); /* Dim all but first */
+	background: rgba(251, 156, 15, 0.5); /* Dim all but first */
+  border: 1px solid #FB9C0F;
 }
 .CSSgal .bullets > a:hover {
 	background: rgba(251, 156, 15, 0.7) !important;
   color: black;
+  border: 1px solid black;
 }
 
 /* NAVIGATION BUTTONS */
 /* ALL: */
 .CSSgal >s:target ~ .bullets >* {      background: rgba(0, 0, 0, 0.5);}
 /* ACTIVE */
-#s1:target ~ .bullets >*:nth-child(1) {background: rgba(255, 255, 255,   1); color: black;}
-#s2:target ~ .bullets >*:nth-child(2) {background: rgba(255, 255, 255,   1); color: black;}
-#s3:target ~ .bullets >*:nth-child(3) {background: rgba(255, 255, 255,   1); color: black;}
-#s4:target ~ .bullets >*:nth-child(4) {background: rgba(255, 255, 255,   1); color: black;}
+#s1:target ~ .bullets >*:nth-child(1) {background: rgba(251, 156, 15,   1); color: black; border: 1px solid black;}
+#s2:target ~ .bullets >*:nth-child(2) {background: rgba(251, 156, 15,   1); color: black; border: 1px solid black;}
+#s3:target ~ .bullets >*:nth-child(3) {background: rgba(251, 156, 15,   1); color: black; border: 1px solid black;}
+#s4:target ~ .bullets >*:nth-child(4) {background: rgba(251, 156, 15,   1); color: black; border: 1px solid black;}
 /* More slides? Add here more rules */
 
 /* PREV/NEXT CONTAINERS VISIBILITY */
