@@ -18,3 +18,8 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";
 }
 
+// function clickMe() {
+//   document.getElementsByClassName('card-img-top').addEventListener('hover', function() {
+//     document.getElementsByClassName('klassiker').innerHTML = "Klick mich"
+//   })
+// }
