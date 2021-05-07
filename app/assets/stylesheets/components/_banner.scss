@@ -22,13 +22,14 @@
   text-shadow: 1.2px 1.2px black;
   text-align: center;
   padding-top: 10px;
-  transition: 0.15s;
+  transition: 0.5s;
 }
 
 .banner h1:hover {
   text-shadow: 2px 2px #FB9C0F;
   color: black;
-  letter-spacing: 3px;
+  letter-spacing: 0.1px;
+  font-size: large;
 }
 
 
@@ -53,17 +54,27 @@
   }
 }
 
-.facebook {
-  position: absolute;
-  right: 25px;
+.icons {
   color: white;
+  position: absolute;
 }
 
-.instagram {
-  position: absolute;
-  right: 50px;
-  color: black;
-  text-shadow: 1px 1px #FB9C0F
+#facebook {
+  right: 25px;
 }
+
+#facebook:hover {
+  color: #FB9C0F;
+}
+
+#instagram {
+  right: 50px;
+}
+
+#instagram:hover {
+  color: #FB9C0F;
+}
+
+
 
 
