@@ -94,12 +94,14 @@ http://stackoverflow.com/a/34696029/383904
   line-height: 30px;
   text-decoration: none;
   text-align: center;
-  background: rgba(251, 156, 15, 1);
+  background: rgba(251, 156, 15, 1); /* Dim all but first */
   -webkit-transition: 0.3s;
           transition: 0.3s;
+  border: 1px solid black;
+  text-shadow: 1px 1px black;
 }
 .CSSgal .bullets > a+a {
-  background: rgba(251, 156, 15, 0.5); /* Dim all but first */
+  background: rgba(17, 12, 15, 0.7);
   border: 1px solid #FB9C0F;
 }
 .CSSgal .bullets > a:hover {
