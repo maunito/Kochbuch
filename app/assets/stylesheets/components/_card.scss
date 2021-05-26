@@ -62,10 +62,15 @@
   letter-spacing: 1px;
 }
 
-.card-title:hover {
-  text-decoration: none;
-  color: #FB9C0F;
-  font-size: 22px;
+// didn#t know this is a thing...
+// card.title changes color when hovering over card
+.card:hover {
+  .card-title {
+    text-decoration: none;
+    color: #FB9C0F;
+    font-size: 22px;
+  }
+
 }
 
 
