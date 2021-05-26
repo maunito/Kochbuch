@@ -39,8 +39,10 @@ kartoffelsalat = { name: "Kartoffelsalat", ingredients: "Potatoes", rating: 5 }
 
 bayerisch_creme = { name: "Bayerisch Creme", ingredients: "-", rating: 5 }
 
+kaiserschmarrn = { name: "Kaiserschmarrn", ingredients: "Flour, Sugar, Eggs", rating: 5 }
 
-[ gulasch, schweinebraten, ente, schnitzel, schinkennudeln, fleischpflanzerl, kartoffelsalat, bayerisch_creme ].each do |attributes|
+
+[ gulasch, schweinebraten, ente, schnitzel, schinkennudeln, fleischpflanzerl, kartoffelsalat, bayerisch_creme, kaiserschmarrn ].each do |attributes|
   recipe = Recipe.create!(attributes)
   puts "Created #{recipe.name} with id #{recipe.id}"
 end

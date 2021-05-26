@@ -119,12 +119,14 @@
         <% end %>
       </div>
       <div class="col-sm">
-        <div class="card">
-          <img class="card-img-top" src="https://previews.123rf.com/images/katyjay/katyjay1510/katyjay151000011/47339369-ente-mit-kn%C3%B6del.jpg" alt="">
-          <div class="card-body">
-            <h5 class="card-title" id="border-radius">Gerichtname</h5>
+        <%= link_to recipe_path(9), class: "no-underline" do %>
+          <div class="card">
+            <%= image_tag 'kaiserschmarrn.JPG', class: "card-img-top" %>
+            <div class="card-body">
+              <h5 class="card-title" id="border-radius">Kaiserschmarrn</h5>
+            </div>
           </div>
-        </div>
+        <% end %>
       </div>
       <div class="col-sm">
         <div class="card">
