@@ -23,23 +23,23 @@ puts "Creating recipes..."
 # gulasch.photo.attach(io: gulasch_pic, filename: 'gulasch.jpg', content_type: 'image/png')
 # gulasch.save!
 
-gulasch = { name: "Gulasch", ingredients: "Meat", rating: 5 }
+gulasch = { name: "Gulasch", ingredients: "Rindfleisch", rating: 5 }
 
-schweinebraten = { name: "Schweinebraten", ingredients: "Meat", rating: 4 }
+schweinebraten = { name: "Schweinebraten", ingredients: "Schwienefleisch", rating: 4 }
 
-ente = { name: "Ente", ingredients: "Meat", rating: 5 }
+ente = { name: "Ente", ingredients: "Ente", rating: 5 }
 
-schnitzel = { name: "Schnitzel", ingredients: "Meat, eggs", rating: 5 }
+schnitzel = { name: "Münchner Schnitzel", ingredients: "Schweinefleisch, Eier, Paniermehl, Mehl, Süßer Senf, Meerrettich", rating: 5 }
 
-schinkennudeln = { name: "Schnikennudeln", ingredients: "Ham, Eggs", rating: 5 }
+schinkennudeln = { name: "Schnikennudeln", ingredients: "Schinken, Nudeln, Ei, Röstzwiebeln", rating: 5 }
 
-fleischpflanzerl = { name: "Fleischpflanzerl", ingredients: "Meat", rating: 5 }
+fleischpflanzerl = { name: "Fleischpflanzerl", ingredients: "Hackfleisch, Petersilie, Zwiebeln, Ei, Paniermehl", rating: 5 }
 
-kartoffelsalat = { name: "Kartoffelsalat", ingredients: "Potatoes", rating: 5 }
+kartoffelsalat = { name: "Kartoffelsalat", ingredients: "Kartoffeln", rating: 5 }
 
 bayerisch_creme = { name: "Bayerisch Creme", ingredients: "-", rating: 5 }
 
-kaiserschmarrn = { name: "Kaiserschmarrn", ingredients: "Flour, Sugar, Eggs", rating: 5 }
+kaiserschmarrn = { name: "Kaiserschmarrn", ingredients: "Mehl, Zucker, Eier", rating: 5 }
 
 
 [ gulasch, schweinebraten, ente, schnitzel, schinkennudeln, fleischpflanzerl, kartoffelsalat, bayerisch_creme, kaiserschmarrn ].each do |attributes|
