@@ -31,7 +31,7 @@ ente = { name: "Ente", ingredients: "Ente", rating: 5 }
 
 schnitzel = { name: "Münchner Schnitzel", ingredients: "Schweinefleisch, Eier, Paniermehl, Mehl, Süßer Senf, Meerrettich", rating: 5 }
 
-schinkennudeln = { name: "Schnikennudeln", ingredients: "Schinken, Nudeln, Ei, Röstzwiebeln", rating: 5 }
+schinkennudeln = { name: "Schinkennudeln", ingredients: "Schinken, Nudeln, Ei, Röstzwiebeln", rating: 5 }
 
 fleischpflanzerl = { name: "Fleischpflanzerl", ingredients: "Hackfleisch, Petersilie, Zwiebeln, Ei, Paniermehl", rating: 5 }
 
