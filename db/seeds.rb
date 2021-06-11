@@ -25,7 +25,7 @@ puts "Creating recipes..."
 
 gulasch = { name: "Gulasch", ingredients: "Rindfleisch", rating: 5 }
 
-schweinebraten = { name: "Schweinebraten", ingredients: "Schwienefleisch", rating: 4 }
+schweinebraten = { name: "Schweinebraten", ingredients: "Schweinefleisch", rating: 4 }
 
 ente = { name: "Ente", ingredients: "Ente", rating: 5 }
 
