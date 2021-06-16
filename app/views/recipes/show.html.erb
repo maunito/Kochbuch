@@ -5,9 +5,24 @@
   <div class="details">
     <h2><%= @recipe.name %></h2>
     <h5 class="rating">Bewertung: <%= @recipe.rating %></h5>
-    <div class="ingredients">
-      <h3>Zutaten: </h3>
-      <h3><%= @recipe.ingredients %></h3>
+    <div class="row">
+      <div class="col-sm firstColumn">
+        <h3>Zutaten: </h3>
+      </div>
+      <div class="col-sm secondColumn">
+        <h5><%= @recipe.ingredients %></h5>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm firstColumn">
+      </div>
+      <div class="col-sm">
+      </div>
+    </div>
+    
+    
+      
+      
     </div>
     
     
