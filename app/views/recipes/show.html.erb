@@ -3,9 +3,14 @@
 <% end %>
 <div class="show-container">  
   <div class="details">
-    <h1>Name: <%= @recipe.name %></h1>
-    <h2>Zutaten: <%= @recipe.ingredients %></h2>
-    <h2>Bewertung: <%= @recipe.rating %></h2>
+    <h2><%= @recipe.name %></h2>
+    <h5 class="rating">Bewertung: <%= @recipe.rating %></h5>
+    <div class="ingredients">
+      <h3>Zutaten: </h3>
+      <h3><%= @recipe.ingredients %></h3>
+    </div>
+    
+    
   </div>
 
   <!-- <%= render 'shared/card' %> -->
