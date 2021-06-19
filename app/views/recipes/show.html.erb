@@ -6,7 +6,19 @@
 
     <div class="nameAndRating">
       <h2><%= @recipe.name %></h2>
-      <%= render 'shared/rating3' %>
+      <% if @recipe.rating == 0 %>
+        <%= render 'shared/rating0' %>
+      <% elsif @recipe.rating == 1%>
+        <%= render 'shared/rating1' %>
+      <% elsif @recipe.rating == 2%>
+        <%= render 'shared/rating2' %>
+      <% elsif @recipe.rating == 3%>
+        <%= render 'shared/rating3' %>
+      <% elsif @recipe.rating == 4%>
+        <%= render 'shared/rating4' %>
+      <% elsif @recipe.rating == 5%>
+        <%= render 'shared/rating5' %>
+      <% end %>
     </div>
 
     <div class="row">
