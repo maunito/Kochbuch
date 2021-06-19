@@ -3,31 +3,28 @@
 <% end %>
 <div class="show-container">  
   <div class="details">
-    <h2><%= @recipe.name %></h2>
-    <h5 class="rating">Bewertung: <%= @recipe.rating %></h5>
+
+    <div class="nameAndRating">
+      <h2><%= @recipe.name %></h2>
+      <%= render 'shared/rating3' %>
+    </div>
+
     <div class="row">
       <div class="col-sm firstColumn">
-        <h3>Zutaten: </h3>
+        <h4>Zutaten: <%= @recipe.ingredients %></h4>
+      </div>
+    </div> 
+
+    <h3 class="mt-5">Zubereitung</h3>
+
+    <div class="row">
+      <div class="col-sm firstColumn">
       </div>
       <div class="col-sm secondColumn">
-        <h5><%= @recipe.ingredients %></h5>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-sm firstColumn">
-      </div>
-      <div class="col-sm">
-      </div>
-    </div>
-    
-    
-      
-      
-    </div>
-    
-    
-  </div>
+    </div> 
 
+  </div>
   <!-- <%= render 'shared/card' %> -->
 </div>
 

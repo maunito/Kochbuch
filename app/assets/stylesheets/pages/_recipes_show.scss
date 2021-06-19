@@ -21,19 +21,17 @@
   opacity: 0.8;
   margin-top: 20%;
   border: 1px solid #FB9C0F;
+  border-radius: 25px;
   padding: 5%;
+
+  .nameAndRating {
+    text-align: center;
+  }
 
   .rating {
     padding-bottom: 10%;
   }
 
-  .firstColumn {
-    text-align: left;
-  }
-
-  .secondColumn {
-    text-align: left;
-  }
 }
 
 .details h2 {
