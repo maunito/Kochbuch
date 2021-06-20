@@ -5,17 +5,17 @@
   <div class="details">
 
     <div class="nameAndRating">
-      <h2><%= @recipe.name %></h2>
+      <h4><%= @recipe.name %></h4>
       <%= render 'rating/rating_logic' %>
     </div>
 
     <div class="row">
       <div class="col-sm firstColumn">
-        <h4>Zutaten: <%= @recipe.ingredients %></h4>
+        <h5>Zutaten: <%= @recipe.ingredients %></h5>
       </div>
     </div> 
 
-    <h3 class="mt-5">Zubereitung</h3>
+    <h5 class="mt-5">Zubereitung</h5>
 
     <div class="row">
       <div class="col-sm firstColumn">
