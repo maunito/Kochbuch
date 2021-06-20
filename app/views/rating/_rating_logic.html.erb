@@ -1,0 +1,13 @@
+<% if @recipe.rating == 0 %>
+  <%= render 'rating/rating0' %>
+<% elsif @recipe.rating == 1%>
+  <%= render 'rating/rating1' %>
+<% elsif @recipe.rating == 2%>
+  <%= render 'rating/rating2' %>
+<% elsif @recipe.rating == 3%>
+  <%= render 'rating/rating3' %>
+<% elsif @recipe.rating == 4%>
+  <%= render 'rating/rating4' %>
+<% elsif @recipe.rating == 5%>
+  <%= render 'rating/rating5' %>
+<% end %>
