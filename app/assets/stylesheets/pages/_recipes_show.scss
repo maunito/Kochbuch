@@ -46,4 +46,14 @@
   top: 50%;
   left: 2%;
   color: #FB9C0F;
+  background-color: #101012;
+  border-radius: 50%;
+}
+
+
+@media screen and (max-width: 800px) {
+  .far {
+    font-size: 36px;
+    z-index: 2;
+  }
 }
