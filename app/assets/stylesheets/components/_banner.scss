@@ -32,7 +32,9 @@
   font-size: large;
 }
 
-
+.removeTextDecoration {
+  text-decoration: none !important;
+}
 
 .removeTextDecoration:hover {
   text-decoration: none !important;;
